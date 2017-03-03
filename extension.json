@@ -1,0 +1,13 @@
+{
+	"name": "InternalWhitelist",
+	"author": ["Lisa Ridley", "Stanislav Pika"],
+	"url": "https://www.mediawiki.org/wiki/Extension:InternalWhitelist",
+	"descriptionmsg": "InternalWhitelist-desc",
+	"version": "0.8.1 beta",
+	"license-name": "GPL-2.0+",
+	"type": "other",
+	"manifest_version": 1,
+	"AutoloadClasses": {
+		"InternalWhitelist": "InternalWhitelist_body.php"
+	}
+}
