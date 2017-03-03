@@ -88,7 +88,7 @@ function fnInternalWhitelist($user, $rights){
     if(!$user->isAnon()){
         return true;
     }
-    $pagearray = explode("\n", wfMsgForContent( 'Whitelist' ) );
+    $pagearray = explode("\n", wfMessage( 'Whitelist' )->inContentLanguage()->text() );
     foreach($pagearray as $arg){
         if (strpos($arg, '//') !== false) {
             continue;
